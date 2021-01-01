@@ -1,0 +1,4 @@
+export const FETCH_CONTACTS = 'FETCH_CONTACTS';
+export const FETCH_NEXT_PAGE = 'FETCH_NEXT_PAGE';
+export const CLEAR_CONTACTS = 'CLEAR_CONTACTS';
+export const LOADING_DATA = 'LOADING_DATA';

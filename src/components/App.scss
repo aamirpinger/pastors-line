@@ -1,0 +1,26 @@
+.app-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 90vw;
+  min-height: 100vh;
+}
+
+.button-a {
+  margin: 10px;
+  background-color: #46139f;
+}
+
+.button-b {
+  margin: 10px;
+  background-color: #ff7f50;
+}
+
+.button-c {
+  border-color: #46139f;
+  background-color: white;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+
