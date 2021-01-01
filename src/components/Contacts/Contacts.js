@@ -20,9 +20,9 @@ function Contacts() {
 
     dispatch(fetchContacts(currentDefaultCompany, nextPage, searchParam.get('countryId')));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dispatch, evenIdsOnly, location]);
+  }, [dispatch, location]);
 
-  const toggleOdd = () => {
+  const toggleEven = () => {
     setEvenIdsOnly(!evenIdsOnly);
   };
 
@@ -33,7 +33,7 @@ function Contacts() {
         evenIdsOnly={evenIdsOnly}
         currentDefaultCompany={currentDefaultCompany}
       />
-      <ModalButtons toggleOdd={toggleOdd} />
+      <ModalButtons toggleEven={toggleEven} />
     </CustomModal>
   );
 }
