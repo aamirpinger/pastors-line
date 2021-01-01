@@ -58,7 +58,7 @@ function Table(props) {
   };
 
   const _handleScroll = ({ top }) => {
-    if (top === 1) handleScroll(top);
+    if (top > 0.99) handleScroll(top);
   };
 
   if (loading) return <Loading />;

@@ -7,7 +7,7 @@ function ModalButtons(props) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const { toggleOdd } = props;
+  const { toggleEven } = props;
 
   const handleClick = countryId => {
     let routePath = '/contacts';
@@ -27,7 +27,7 @@ function ModalButtons(props) {
   return (
     <div>
       <span className='m-2'>
-        <input type='checkbox' className='m-2' onClick={toggleOdd} />
+        <input type='checkbox' className='m-2' onClick={toggleEven} />
         Only even
       </span>
       <button className='btn button-a' onClick={() => handleClick()}>
